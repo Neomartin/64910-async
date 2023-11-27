@@ -16,9 +16,7 @@ fetch('https://fakestoreapi.com/products')
 
 
 function pintarProductos() {
-
     productWrapper.innerHTML = '';
-
     for(let prod of products) {
 
         productWrapper.innerHTML += `<div class="col-12 col-md-6 col-lg-4 col-xl-3">
